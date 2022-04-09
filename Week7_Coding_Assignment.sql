@@ -1,0 +1,14 @@
+# USE employees;
+# Q2 SELECT * FROM employees WHERE birth_date < '1965-01-01';
+# Q2 SELECT * FROM employees WHERE gender = 'F' AND hire_date > '1990-01-01';
+# Q3 SELECT * FROM employees WHERE last_name LIKE 'F%';
+# Q4 INSERT INTO employees VALUES (100, '1990-01-01', 'Cloud', 'Strife', 'M', '2022-04-08'), (101, '1989-01-01', 'Sephiroth', 'Jenova', 'M', '2022-04-07'), (102, '1991-01-01', 'Tifa', 'Lockheart', 'F', '2022-04-09');
+# Q4 Checking SELECT * FROM employees WHERE emp_no < 10000;
+# Q5 UPDATE employees SET first_name = 'Bob' WHERE emp_no = 10023;
+# Q5 Checking SELECT * FROM employees WHERE emp_no = 10023;
+# Q6 UPDATE employees SET hire_date = '2002-01-01' WHERE first_name LIKE 'P%' OR last_name LIKE'P%';
+# Q6 Checking SELECT * FROM employees WHERE first_name LIKE 'P%' OR last_name LIKE'P%';
+# Q7 DELETE FROM employees WHERE emp_no < 10000;
+# Q7 Checking SELECT * FROM employees WHERE emp_no < 10000;
+# Q8 DELETE FROM employees WHERE emp_no IN (10048, 10099, 10234, 20089);
+# Q8 Checking SELECT * FROM employees WHERE emp_no IN (10048, 10099, 10234, 20089);
